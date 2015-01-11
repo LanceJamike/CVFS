@@ -1,0 +1,13 @@
+  /dev/ram0  [      16.00 MiB] 
+  /dev/sda1  [     300.00 MiB] 
+  /dev/sda2  [      17.74 GiB] 
+  /dev/sda3  [       1.97 GiB]  
+  /dev/ram9  [      16.00 MiB] 
+  /dev/ram11 [      16.00 MiB] 
+  /dev/ram13 [      16.00 MiB] 
+  /dev/ram15 [      16.00 MiB] 
+  /dev/sdb1  [     300.00 MiB] 
+  /dev/sdc2  [      17.74 GiB] 
+  /dev/sdb3  [       1.97 GiB]
+  19 partitions
+  0 LVM physical volumes

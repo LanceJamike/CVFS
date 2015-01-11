@@ -1,0 +1,40 @@
+package diskPool;
+
+public class UpdateConnection implements Runnable{
+	private commandExec getUpdate = new commandExec();
+	private LVProcedures updateDrives = new LVProcedures();
+	private boolean uFlag = true;
+	public void run(){
+		//naka comment muna ung loop at sleep
+		while(isuFlag()==true){
+		
+		System.out.println("Gotta sleep first...");
+		try {
+			Thread.sleep(60000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		System.out.println("Shit that was a minute?");
+	try {
+		System.out.println("I should be scanning some new iscsitargets here...");
+		System.out.println("I should be scanning a new some new drives here..");
+		//getUpdate.runCommand("iscsiadm -m session --rescan");
+		//updateDrives.ScanDisks("UpdateDrives2");
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
+	if(this.isuFlag()==false)
+		break;
+		}
+
+
+	}
+	public void setuFlag(boolean uFlag) {
+		this.uFlag = uFlag;
+	}
+	public boolean isuFlag() {
+		return uFlag;
+	}
+
+	
+}

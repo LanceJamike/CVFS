@@ -1,0 +1,26 @@
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2014-03-17 17:34 PHT
+Nmap scan report for 192.168.11.1
+Host is up (0.00020s latency).
+PORT     STATE    SERVICE
+3260/tcp filtered iscsi
+MAC Address: 00:50:56:C0:00:08 (VMware)
+
+Nmap scan report for 192.168.11.2
+Host is up (0.00010s latency).
+PORT     STATE  SERVICE
+3260/tcp closed iscsi
+MAC Address: 00:50:56:F8:30:3E (VMware)
+
+Nmap scan report for 192.168.11.135
+Host is up (0.000043s latency).
+PORT     STATE  SERVICE
+3260/tcp closed iscsi
+
+Nmap scan report for 192.168.11.254
+Host is up (0.000081s latency).
+PORT     STATE    SERVICE
+3260/tcp filtered iscsi
+MAC Address: 00:50:56:EA:A4:DE (VMware)
+
+Nmap done: 256 IP addresses (4 hosts up) scanned in 9.98 seconds
