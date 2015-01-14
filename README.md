@@ -4,3 +4,4 @@ Centralized Virtual File System. A system that is capable of presenting a cluste
 Stable version of Linux Server OS used: *Pending*
 Stable version of Apache Tomcat Server: *Pending*
 Stable version of Samba used: *Pending*
+Stable version of iSCSI: *Pending*
