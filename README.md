@@ -1,6 +1,6 @@
 # CVFS
 
-![alt tag](http://im.ezgif.com/tmp/ezgif-676147436.gif)
+![alt tag](http://i.imgur.com/wNITFyC.gif)
 
 Centralized Virtual File System. A system that is capable of presenting a cluster of file storages as a single file storage handled by a central control unit that manages metadata for distributing files to a network.
 
